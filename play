@@ -1,0 +1,44 @@
+    1  mkdir kerri
+    2  cd kerri
+    3  mkdir sandbox
+    4  cd sandbox
+    5  gedit commands.txt
+    6  cd ..
+    7  mkdir dir1
+    8  mkdir kerri
+    9  cd kerri
+   10  mkdir sandbox
+   11  cd sandbox
+   12  gedit commands.txt
+   13  mkdir dir1
+   14  mkdir dir2
+   15  cd dir1
+   16  gedit file1.txt
+   17* cd .
+   18  cd dir2
+   19  gedit file2.txt
+   20  cd ..
+   21  ls
+   22  cd sandbox
+   23  ls
+   24  cd dir1 ls
+   25  ls
+   26  cd ..
+   27  cd dir2
+   28  ls
+   29  cd ..
+   30  cp r- sandbox playpen
+   31  cp -r  sandbox playpen
+   32  cd playpen
+   33  mv dir1 folder1
+   34  cd ..
+   35  mv dir2 folder2
+   36  cd playpen
+   37  ls
+   38  mv dir2 folder2
+   39  ls
+   40  cd ..
+   41  cd kerri
+   42  histoy > play.txt
+   43  histoy > play
+   44  history > play

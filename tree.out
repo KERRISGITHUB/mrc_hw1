@@ -1,0 +1,17 @@
+.
+├── play
+├── playpen
+│   ├── commands.txt
+│   ├── folder1
+│   │   └── file1.txt
+│   └── folder2
+│       └── file2.txt
+├── sandbox
+│   ├── commands.txt
+│   ├── dir1
+│   │   └── file1.txt
+│   └── dir2
+│       └── file2.txt
+└── tree.out
+
+6 directories, 8 files
